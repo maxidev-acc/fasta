@@ -510,24 +510,48 @@ ContinuousSubmit/fast:
 .PHONY : ContinuousSubmit/fast
 
 #=============================================================================
-# Target rules for targets named Fasta
+# Target rules for targets named Unittest
 
 # Build rule for target.
-Fasta: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Fasta
-.PHONY : Fasta
+Unittest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Unittest
+.PHONY : Unittest
 
 # fast build rule for target.
-Fasta/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/build
-.PHONY : Fasta/fast
+Unittest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/build
+.PHONY : Unittest/fast
+
+lib/Aminoacid.obj: lib/Aminoacid.cpp.obj
+.PHONY : lib/Aminoacid.obj
+
+# target to build an object file
+lib/Aminoacid.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Aminoacid.cpp.obj
+.PHONY : lib/Aminoacid.cpp.obj
+
+lib/Aminoacid.i: lib/Aminoacid.cpp.i
+.PHONY : lib/Aminoacid.i
+
+# target to preprocess a source file
+lib/Aminoacid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Aminoacid.cpp.i
+.PHONY : lib/Aminoacid.cpp.i
+
+lib/Aminoacid.s: lib/Aminoacid.cpp.s
+.PHONY : lib/Aminoacid.s
+
+# target to generate assembly for a file
+lib/Aminoacid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Aminoacid.cpp.s
+.PHONY : lib/Aminoacid.cpp.s
 
 lib/FastaFile.obj: lib/FastaFile.cpp.obj
 .PHONY : lib/FastaFile.obj
 
 # target to build an object file
 lib/FastaFile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFile.cpp.obj
 .PHONY : lib/FastaFile.cpp.obj
 
 lib/FastaFile.i: lib/FastaFile.cpp.i
@@ -535,7 +559,7 @@ lib/FastaFile.i: lib/FastaFile.cpp.i
 
 # target to preprocess a source file
 lib/FastaFile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFile.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFile.cpp.i
 .PHONY : lib/FastaFile.cpp.i
 
 lib/FastaFile.s: lib/FastaFile.cpp.s
@@ -543,7 +567,7 @@ lib/FastaFile.s: lib/FastaFile.cpp.s
 
 # target to generate assembly for a file
 lib/FastaFile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFile.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFile.cpp.s
 .PHONY : lib/FastaFile.cpp.s
 
 lib/FastaFormat.obj: lib/FastaFormat.cpp.obj
@@ -551,7 +575,7 @@ lib/FastaFormat.obj: lib/FastaFormat.cpp.obj
 
 # target to build an object file
 lib/FastaFormat.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFormat.cpp.obj
 .PHONY : lib/FastaFormat.cpp.obj
 
 lib/FastaFormat.i: lib/FastaFormat.cpp.i
@@ -559,7 +583,7 @@ lib/FastaFormat.i: lib/FastaFormat.cpp.i
 
 # target to preprocess a source file
 lib/FastaFormat.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFormat.cpp.i
 .PHONY : lib/FastaFormat.cpp.i
 
 lib/FastaFormat.s: lib/FastaFormat.cpp.s
@@ -567,7 +591,7 @@ lib/FastaFormat.s: lib/FastaFormat.cpp.s
 
 # target to generate assembly for a file
 lib/FastaFormat.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaFormat.cpp.s
 .PHONY : lib/FastaFormat.cpp.s
 
 lib/FastaHeader.obj: lib/FastaHeader.cpp.obj
@@ -575,7 +599,7 @@ lib/FastaHeader.obj: lib/FastaHeader.cpp.obj
 
 # target to build an object file
 lib/FastaHeader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaHeader.cpp.obj
 .PHONY : lib/FastaHeader.cpp.obj
 
 lib/FastaHeader.i: lib/FastaHeader.cpp.i
@@ -583,7 +607,7 @@ lib/FastaHeader.i: lib/FastaHeader.cpp.i
 
 # target to preprocess a source file
 lib/FastaHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaHeader.cpp.i
 .PHONY : lib/FastaHeader.cpp.i
 
 lib/FastaHeader.s: lib/FastaHeader.cpp.s
@@ -591,7 +615,7 @@ lib/FastaHeader.s: lib/FastaHeader.cpp.s
 
 # target to generate assembly for a file
 lib/FastaHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaHeader.cpp.s
 .PHONY : lib/FastaHeader.cpp.s
 
 lib/FastaParser.obj: lib/FastaParser.cpp.obj
@@ -599,7 +623,7 @@ lib/FastaParser.obj: lib/FastaParser.cpp.obj
 
 # target to build an object file
 lib/FastaParser.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaParser.cpp.obj
 .PHONY : lib/FastaParser.cpp.obj
 
 lib/FastaParser.i: lib/FastaParser.cpp.i
@@ -607,7 +631,7 @@ lib/FastaParser.i: lib/FastaParser.cpp.i
 
 # target to preprocess a source file
 lib/FastaParser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaParser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaParser.cpp.i
 .PHONY : lib/FastaParser.cpp.i
 
 lib/FastaParser.s: lib/FastaParser.cpp.s
@@ -615,7 +639,7 @@ lib/FastaParser.s: lib/FastaParser.cpp.s
 
 # target to generate assembly for a file
 lib/FastaParser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/FastaParser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/FastaParser.cpp.s
 .PHONY : lib/FastaParser.cpp.s
 
 lib/Nucleotide.obj: lib/Nucleotide.cpp.obj
@@ -623,7 +647,7 @@ lib/Nucleotide.obj: lib/Nucleotide.cpp.obj
 
 # target to build an object file
 lib/Nucleotide.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Nucleotide.cpp.obj
 .PHONY : lib/Nucleotide.cpp.obj
 
 lib/Nucleotide.i: lib/Nucleotide.cpp.i
@@ -631,7 +655,7 @@ lib/Nucleotide.i: lib/Nucleotide.cpp.i
 
 # target to preprocess a source file
 lib/Nucleotide.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Nucleotide.cpp.i
 .PHONY : lib/Nucleotide.cpp.i
 
 lib/Nucleotide.s: lib/Nucleotide.cpp.s
@@ -639,7 +663,7 @@ lib/Nucleotide.s: lib/Nucleotide.cpp.s
 
 # target to generate assembly for a file
 lib/Nucleotide.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Nucleotide.cpp.s
 .PHONY : lib/Nucleotide.cpp.s
 
 lib/Sequence.obj: lib/Sequence.cpp.obj
@@ -647,7 +671,7 @@ lib/Sequence.obj: lib/Sequence.cpp.obj
 
 # target to build an object file
 lib/Sequence.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Sequence.cpp.obj
 .PHONY : lib/Sequence.cpp.obj
 
 lib/Sequence.i: lib/Sequence.cpp.i
@@ -655,7 +679,7 @@ lib/Sequence.i: lib/Sequence.cpp.i
 
 # target to preprocess a source file
 lib/Sequence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Sequence.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Sequence.cpp.i
 .PHONY : lib/Sequence.cpp.i
 
 lib/Sequence.s: lib/Sequence.cpp.s
@@ -663,32 +687,32 @@ lib/Sequence.s: lib/Sequence.cpp.s
 
 # target to generate assembly for a file
 lib/Sequence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/lib/Sequence.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/lib/Sequence.cpp.s
 .PHONY : lib/Sequence.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/Unittest.obj: src/Unittest.cpp.obj
+.PHONY : src/Unittest.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/Unittest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/src/Unittest.cpp.obj
+.PHONY : src/Unittest.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/Unittest.i: src/Unittest.cpp.i
+.PHONY : src/Unittest.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/Unittest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/src/Unittest.cpp.i
+.PHONY : src/Unittest.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/Unittest.s: src/Unittest.cpp.s
+.PHONY : src/Unittest.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/Unittest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/src/Unittest.cpp.s
+.PHONY : src/Unittest.cpp.s
 
 # Help Target
 help:
@@ -729,7 +753,10 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... Fasta
+	@echo ... Unittest
+	@echo ... lib/Aminoacid.obj
+	@echo ... lib/Aminoacid.i
+	@echo ... lib/Aminoacid.s
 	@echo ... lib/FastaFile.obj
 	@echo ... lib/FastaFile.i
 	@echo ... lib/FastaFile.s
@@ -748,9 +775,9 @@ help:
 	@echo ... lib/Sequence.obj
 	@echo ... lib/Sequence.i
 	@echo ... lib/Sequence.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/Unittest.obj
+	@echo ... src/Unittest.i
+	@echo ... src/Unittest.s
 .PHONY : help
 
 

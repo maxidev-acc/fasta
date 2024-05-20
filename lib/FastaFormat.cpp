@@ -8,14 +8,14 @@ using namespace std;
 
 FastaFormat::FastaFormat(int id)
  :id(id)
- { cout<<"FastaFormat"<<endl;
+ { //cout<<"FastaFormat"<<endl;
  
   }
 
 
 FastaFormatDNA::FastaFormatDNA(int id)
  :FastaFormat(id)
- { cout<<"FastaFormatDNA"<<endl;
+ { //cout<<"FastaFormatDNA"<<endl;
  
   }
 

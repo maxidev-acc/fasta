@@ -1,44 +1,50 @@
 [
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\src\\main.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\src\\main.cpp",
-  "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/src/main.cpp",
-  "output": "CMakeFiles/Fasta.dir/src/main.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\src\\Unittest.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\src\\Unittest.cpp",
+  "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/src/Unittest.cpp",
+  "output": "CMakeFiles/Unittest.dir/src/Unittest.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\FastaFile.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaFile.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\Aminoacid.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\Aminoacid.cpp",
+  "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Aminoacid.cpp",
+  "output": "CMakeFiles/Unittest.dir/lib/Aminoacid.cpp.obj"
+},
+{
+  "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\FastaFile.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaFile.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFile.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/FastaFile.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\FastaFormat.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaFormat.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\FastaFormat.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaFormat.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFormat.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/FastaFormat.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\FastaHeader.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaHeader.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\FastaHeader.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaHeader.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaHeader.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/FastaHeader.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\FastaParser.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaParser.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\FastaParser.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\FastaParser.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaParser.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/FastaParser.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\Nucleotide.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\Nucleotide.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\Nucleotide.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\Nucleotide.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Nucleotide.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/Nucleotide.cpp.obj"
 },
 {
   "directory": "C:/Users/maxim/Documents/GitHub/fasta_cpp/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Fasta.dir/includes_CXX.rsp -g -o CMakeFiles\\Fasta.dir\\lib\\Sequence.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\Sequence.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Unittest.dir/includes_CXX.rsp -g -o CMakeFiles\\Unittest.dir\\lib\\Sequence.cpp.obj -c C:\\Users\\maxim\\Documents\\GitHub\\fasta_cpp\\lib\\Sequence.cpp",
   "file": "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Sequence.cpp",
-  "output": "CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj"
+  "output": "CMakeFiles/Unittest.dir/lib/Sequence.cpp.obj"
 }
 ]

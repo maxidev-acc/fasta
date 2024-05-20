@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj"
+  "CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj.d"
   "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj"
   "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj.d"
   "CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj"

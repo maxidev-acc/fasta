@@ -26,7 +26,7 @@ C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/ContinuousTest.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/ContinuousCoverage.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/ContinuousSubmit.dir
-C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/Fasta.dir
+C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/Unittest.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/package.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/package_source.dir
 C:/Users/maxim/Documents/GitHub/fasta_cpp/build/CMakeFiles/test.dir

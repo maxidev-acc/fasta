@@ -44,3 +44,25 @@ class FastaFileDNA : FastaFile
 
     
 };
+
+
+class FastaFileProtein : FastaFile
+
+{
+    public:
+        FastaFileProtein();
+        void addFastaFormatEntrieProtein(FastaFormatDNA * entrie){
+            fastaFormatEntriesProtein.push_back(entrie);
+
+        }
+        void printFastaFile();
+    private:
+       
+
+    protected:
+        int id = 0;
+        std::vector<FastaFormatDNA * > fastaFormatEntriesProtein;
+       
+
+    
+};

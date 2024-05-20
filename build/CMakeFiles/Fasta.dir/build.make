@@ -83,11 +83,26 @@ CMakeFiles/Fasta.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fasta.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxim\Documents\GitHub\fasta_cpp\src\main.cpp -o CMakeFiles\Fasta.dir\src\main.cpp.s
 
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj: CMakeFiles/Fasta.dir/flags.make
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Aminoacid.cpp
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj -MF CMakeFiles\Fasta.dir\lib\Aminoacid.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\Aminoacid.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\Aminoacid.cpp
+
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\Aminoacid.cpp > CMakeFiles\Fasta.dir\lib\Aminoacid.cpp.i
+
+CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\Aminoacid.cpp -o CMakeFiles\Fasta.dir\lib\Aminoacid.cpp.s
+
 CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFile.cpp
 CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj -MF CMakeFiles\Fasta.dir\lib\FastaFile.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\FastaFile.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\FastaFile.cpp
 
 CMakeFiles/Fasta.dir/lib/FastaFile.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFormat.cpp
 CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj -MF CMakeFiles\Fasta.dir\lib\FastaFormat.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\FastaFormat.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\FastaFormat.cpp
 
 CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaHeader.cpp
 CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj -MF CMakeFiles\Fasta.dir\lib\FastaHeader.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\FastaHeader.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\FastaHeader.cpp
 
 CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaParser.cpp
 CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/FastaParser.cpp.obj -MF CMakeFiles\Fasta.dir\lib\FastaParser.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\FastaParser.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\FastaParser.cpp
 
 CMakeFiles/Fasta.dir/lib/FastaParser.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Nucleotide.cpp
 CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.obj -MF CMakeFiles\Fasta.dir\lib\Nucleotide.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\Nucleotide.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\Nucleotide.cpp
 
 CMakeFiles/Fasta.dir/lib/Nucleotide.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj: CMakeFiles/Fasta.dir/flags.make
 CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj: CMakeFiles/Fasta.dir/includes_CXX.rsp
 CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj: C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Sequence.cpp
 CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj: CMakeFiles/Fasta.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Fasta.dir/lib/Sequence.cpp.obj -MF CMakeFiles\Fasta.dir\lib\Sequence.cpp.obj.d -o CMakeFiles\Fasta.dir\lib\Sequence.cpp.obj -c C:\Users\maxim\Documents\GitHub\fasta_cpp\lib\Sequence.cpp
 
 CMakeFiles/Fasta.dir/lib/Sequence.cpp.i: cmake_force
@@ -176,6 +191,7 @@ CMakeFiles/Fasta.dir/lib/Sequence.cpp.s: cmake_force
 # Object files for target Fasta
 Fasta_OBJECTS = \
 "CMakeFiles/Fasta.dir/src/main.cpp.obj" \
+"CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj" \
 "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj" \
 "CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj" \
 "CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj" \
@@ -187,6 +203,7 @@ Fasta_OBJECTS = \
 Fasta_EXTERNAL_OBJECTS =
 
 Fasta.exe: CMakeFiles/Fasta.dir/src/main.cpp.obj
+Fasta.exe: CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj
 Fasta.exe: CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj
 Fasta.exe: CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj
 Fasta.exe: CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj
@@ -197,7 +214,7 @@ Fasta.exe: CMakeFiles/Fasta.dir/build.make
 Fasta.exe: CMakeFiles/Fasta.dir/linkLibs.rsp
 Fasta.exe: CMakeFiles/Fasta.dir/objects1.rsp
 Fasta.exe: CMakeFiles/Fasta.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Fasta.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Fasta.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Fasta.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

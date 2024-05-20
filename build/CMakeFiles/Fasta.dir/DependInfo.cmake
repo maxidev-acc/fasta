@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/Aminoacid.cpp" "CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj" "gcc" "CMakeFiles/Fasta.dir/lib/Aminoacid.cpp.obj.d"
   "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFile.cpp" "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj" "gcc" "CMakeFiles/Fasta.dir/lib/FastaFile.cpp.obj.d"
   "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaFormat.cpp" "CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj" "gcc" "CMakeFiles/Fasta.dir/lib/FastaFormat.cpp.obj.d"
   "C:/Users/maxim/Documents/GitHub/fasta_cpp/lib/FastaHeader.cpp" "CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj" "gcc" "CMakeFiles/Fasta.dir/lib/FastaHeader.cpp.obj.d"

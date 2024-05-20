@@ -55,15 +55,30 @@ void UnitTestBasicConstructors() {
 
 
 
-int main() {
+
+
+
+int main(int argc, char *argv[]) {
     
-   
-    std::cout <<"Testphase Parser"<<std::endl;
-    string file = "file.txt";
+
+
+    
+
+    std::cout<<"\nInit new FastaFile Parsing\n"<<std::endl;
+    auto log = new DevLogger();
+    if (argc > 2){
+        std::string mode = argv[2];
+        log->setStatus(mode);
+
+    }
+    
+    
+    
+    string file = argv[1];
     auto *newFastaFile =  new FastaFileDNA();
-    Utility::readDNAFastaFormatFromFile(file, newFastaFile); 
+    Utility::readDNAFastaFormatFromFile(file, newFastaFile, log); 
     
-    std::cout<< ">>>>>>> Finally printing out WHOLE Fasta_File: \n"<<std::endl;
+    log->finalFastaFile();
     newFastaFile->printFastaFile();
 
 

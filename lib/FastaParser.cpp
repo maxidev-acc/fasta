@@ -32,7 +32,7 @@ std::string Utility::readNextCSString(std::stringstream &ss)
 
 
 void Utility::parseStringToNucleotideSequence(const std::string &seqLineAsString, NucleotideSequence *subseq){
-    std::cout<<"\n>> Parsing string to Seq-Object : "<< seqLineAsString <<std::endl;
+    //std::cout<<"\n>> Parsing string to Seq-Object : "<< seqLineAsString <<std::endl;
     char adeninC = 'A';
     char thyminC = 'T';
     char cytosinC = 'C';
@@ -67,7 +67,7 @@ void Utility::parseStringToNucleotideSequence(const std::string &seqLineAsString
 
 
 
-void Utility::readDNAFastaFormatFromFile(const std::string &i_strFileName, FastaFileDNA *newFastaFile)
+void Utility::readDNAFastaFormatFromFile(const std::string &i_strFileName, FastaFileDNA *newFastaFile, DevLogger *mode)
 {
     std::ifstream fFasta("..\\data\\" + i_strFileName);
     char seperator = '>';
@@ -82,12 +82,9 @@ void Utility::readDNAFastaFormatFromFile(const std::string &i_strFileName, Fasta
             
             
             char firstChar = strLine[0];
-            //std::cout<<"New Iteration for "<< strLine <<std::endl;
 
             if (firstChar == seperator){
-                std::cout<<"___________________________________________"<<std::endl;
-                std::cout<<"\nNew Fasta Format Entry for" << strLine <<std::endl;
-
+                mode->newEntryLog();
                 auto *fasta = new FastaFormatDNA(0);
                 auto *head = new FastaHeader();
                 auto *seq = new NucleotideSequence();
@@ -98,14 +95,15 @@ void Utility::readDNAFastaFormatFromFile(const std::string &i_strFileName, Fasta
 
                     getline(fFasta, strLine);
                     char firstCharInner = strLine[0];
-                    std::cout<<"Adding Seq line:" << strLine <<std::endl;
+                    //std::cout<<"Adding Seq line:" << strLine <<std::endl;
                     parseStringToNucleotideSequence(strLine, seq);
                     getline(fFasta, strLine);
                     firstCharInner = strLine[0];
                     if (firstCharInner == seperator) { break;};
                 }
 
-            std::cout << "\n>>> Finally setting up whole Fasta Format-Entry"<<std::endl;
+            
+            
             fasta->setFastaHeader(head);
             fasta->setFastaSequence(seq);
             fasta->printFastaFormatDNA();
@@ -131,3 +129,22 @@ void Utility::readDNAFastaFormatFromFile(const std::string &i_strFileName, Fasta
         
 
 }
+
+
+
+
+DevLogger::DevLogger(std::string active)
+    : isactive(active)
+{
+    if (isactive =="dev"){
+        std::cout<<">>Dev Mode"<<std::endl;
+    }
+}
+
+void DevLogger::newEntryLog(){
+    if (this->isactive == "dev") {
+    std::cout<<"___________________________________________"<<std::endl;
+    std::cout<<"\nNew Fasta Format Entry for"  <<std::endl;
+};
+}
+

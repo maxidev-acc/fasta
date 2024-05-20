@@ -8,14 +8,14 @@
 using namespace std;
 
 FastaFile::FastaFile()
- { cout<<"Fastafile"<<endl;
+ { //cout<<"Fastafile"<<endl;
  
   }
 
 
 FastaFileDNA::FastaFileDNA()
  :FastaFile()
- { cout<<"Fastafile DNA"<<endl;
+ { //cout<<"Fastafile DNA"<<endl;
  
   }
 
@@ -27,5 +27,18 @@ void FastaFileDNA::printFastaFile(){
 
     }
 
+
+}
+
+
+FastaFileProtein::FastaFileProtein()
+ :FastaFile()
+ { //cout<<"Fastafile DNA"<<endl;
+ 
+  }
+
+
+void FastaFileProtein::printFastaFile(){
+    //
 
 }

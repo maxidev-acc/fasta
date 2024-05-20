@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\maxim\Documents\GitHub\fasta_cpp\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Fasta.dir/all
+all: CMakeFiles/Unittest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/ContinuousTest.dir/clean
 clean: CMakeFiles/ContinuousCoverage.dir/clean
 clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
-clean: CMakeFiles/Fasta.dir/clean
+clean: CMakeFiles/Unittest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -830,30 +830,30 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 .PHONY : CMakeFiles/ContinuousSubmit.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Fasta.dir
+# Target rules for target CMakeFiles/Unittest.dir
 
 # All Build rule for target.
-CMakeFiles/Fasta.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Fasta"
-.PHONY : CMakeFiles/Fasta.dir/all
+CMakeFiles/Unittest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Unittest"
+.PHONY : CMakeFiles/Unittest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Fasta.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Fasta.dir/all
+CMakeFiles/Unittest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Unittest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\maxim\Documents\GitHub\fasta_cpp\build\CMakeFiles 0
-.PHONY : CMakeFiles/Fasta.dir/rule
+.PHONY : CMakeFiles/Unittest.dir/rule
 
 # Convenience name for target.
-Fasta: CMakeFiles/Fasta.dir/rule
-.PHONY : Fasta
+Unittest: CMakeFiles/Unittest.dir/rule
+.PHONY : Unittest
 
 # clean rule for target.
-CMakeFiles/Fasta.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Fasta.dir\build.make CMakeFiles/Fasta.dir/clean
-.PHONY : CMakeFiles/Fasta.dir/clean
+CMakeFiles/Unittest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Unittest.dir\build.make CMakeFiles/Unittest.dir/clean
+.PHONY : CMakeFiles/Unittest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
